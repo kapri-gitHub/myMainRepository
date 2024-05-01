@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testingbaba_Suite">
+
+	<groups>
+		<run>
+			<include name="sanity" />
+			<include name="regression" />
+		</run>
+	</groups>
+
+	<parameter name="env" value="stagingurl" />
+
+	<test name="Login_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="TextBox_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.TextboxTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CheckBox_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.CheckBoxTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Buttons_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.ButtonsTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Links_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.LinksTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="FileUploadig_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.FileUploadingTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="BrowserWindows_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.BrowserWindowsTest" />
+		</classes>
+	</test>
+
+	<test name="Alerts_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.AlertsTest" />
+		</classes>
+	</test>
+
+	<test name="Alerts_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.FramesTest" />
+		</classes>
+	</test>
+
+	<test name="NestedFrames_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.NestedFramesTest" />
+		</classes>
+	</test>
+
+	<test name="ModalDialogs_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.ModalDialogsTest" />
+		</classes>
+	</test>
+
+	<test name="SelectMenu_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.SelectMenuTest" />
+		</classes>
+	</test>
+
+	<test name="Menu_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.MenuTest" />
+		</classes>
+	</test>
+
+
+	<test name="ProgressBar_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.ProgressBarTest" />
+		</classes>
+	</test>
+
+	<test name="DatePicker_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.datePickerTest" />
+		</classes>
+	</test>
+
+	<test name="AutoComplete_Test" enabled="true">
+		<classes>
+			<class name="testingbaba_test.AutoComplete_AccordionTest" />
+		</classes>
+	</test>
+
+	<test name="DataProvider_Test" enabled="false">
+		<classes>
+			<class name="testingbaba_test.DataProviderTest" />
+		</classes>
+	</test>
+	
+	<test name="DataProviderTestPage" enabled="false">
+		<classes>
+			<class name="testingbaba_pages.DataProviderTestPage" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

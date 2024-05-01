@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testingbaba_Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="env" value="stagingurl"/>
+  <test thread-count="5" name="AutoComplete_Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testingbaba_test.AutoComplete_AccordionTest">
+        <methods>
+          <include name="fillAutoComplete"/>
+          <include name="hitWidgets"/>
+          <include name="clickAutoComplete"/>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- testingbaba_test.AutoComplete_AccordionTest -->
+    </classes>
+  </test> <!-- AutoComplete_Test(failed) -->
+</suite> <!-- Failed suite [Testingbaba_Suite] -->
