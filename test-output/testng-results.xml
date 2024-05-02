@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-19T17:18:12 IST" name="Testingbaba_Suite" finished-at="2024-04-19T17:18:57 IST" duration-ms="45504">
+  <suite started-at="2024-05-01T17:17:08 IST" name="Testingbaba_Suite" finished-at="2024-05-01T17:18:14 IST" duration-ms="65750">
     <groups>
-      <group name="dev">
-        <method signature="AutoComplete_AccordionTest.clickAutoComplete()[pri:1, instance:testingbaba_test.AutoComplete_AccordionTest@7b02881e]" name="clickAutoComplete" class="testingbaba_test.AutoComplete_AccordionTest"/>
-      </group> <!-- dev -->
       <group name="regression">
-        <method signature="AutoComplete_AccordionTest.clickAutoComplete()[pri:1, instance:testingbaba_test.AutoComplete_AccordionTest@7b02881e]" name="clickAutoComplete" class="testingbaba_test.AutoComplete_AccordionTest"/>
+        <method signature="TextboxTest.verify_title()[pri:0, instance:testingbaba_test.TextboxTest@117e949d]" name="verify_title" class="testingbaba_test.TextboxTest"/>
+        <method signature="TextboxTest.click_elements()[pri:1, instance:testingbaba_test.TextboxTest@117e949d]" name="click_elements" class="testingbaba_test.TextboxTest"/>
+        <method signature="TextboxTest.click_textbox()[pri:2, instance:testingbaba_test.TextboxTest@117e949d]" name="click_textbox" class="testingbaba_test.TextboxTest"/>
+        <method signature="TextboxTest.filldata()[pri:3, instance:testingbaba_test.TextboxTest@117e949d]" name="filldata" class="testingbaba_test.TextboxTest"/>
+        <method signature="TextboxTest.submitclick()[pri:4, instance:testingbaba_test.TextboxTest@117e949d]" name="submitclick" class="testingbaba_test.TextboxTest"/>
+        <method signature="TextboxTest.getverifydetails()[pri:5, instance:testingbaba_test.TextboxTest@117e949d]" name="getverifydetails" class="testingbaba_test.TextboxTest"/>
       </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="AutoComplete_AccordionTest.hitWidgets()[pri:0, instance:testingbaba_test.AutoComplete_AccordionTest@7b02881e]" name="hitWidgets" class="testingbaba_test.AutoComplete_AccordionTest"/>
-        <method signature="AutoComplete_AccordionTest.fillAutoComplete()[pri:2, instance:testingbaba_test.AutoComplete_AccordionTest@7b02881e]" name="fillAutoComplete" class="testingbaba_test.AutoComplete_AccordionTest"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-04-19T17:18:12 IST" name="AutoComplete_Test" finished-at="2024-04-19T17:18:57 IST" duration-ms="45504">
-      <class name="testingbaba_test.AutoComplete_AccordionTest">
-        <test-method is-config="true" signature="launchURL(java.lang.String)[pri:0, instance:testingbaba_test.AutoComplete_AccordionTest@7b02881e]" started-at="2024-04-19T17:18:12 IST" name="launchURL" finished-at="2024-04-19T17:18:54 IST" duration-ms="42765" status="PASS">
+    <test started-at="2024-05-01T17:17:08 IST" name="TextBox_Test" finished-at="2024-05-01T17:18:14 IST" duration-ms="65750">
+      <class name="testingbaba_test.TextboxTest">
+        <test-method is-config="true" signature="launchURL(java.lang.String)[pri:0, instance:testingbaba_test.TextboxTest@117e949d]" started-at="2024-05-01T17:17:08 IST" name="launchURL" finished-at="2024-05-01T17:18:11 IST" duration-ms="63359" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,19 +26,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="hitWidgets()[pri:0, instance:testingbaba_test.AutoComplete_AccordionTest@7b02881e]" started-at="2024-04-19T17:18:55 IST" name="hitWidgets" finished-at="2024-04-19T17:18:55 IST" duration-ms="100" status="PASS">
+        <test-method signature="verify_title()[pri:0, instance:testingbaba_test.TextboxTest@117e949d]" started-at="2024-05-01T17:18:11 IST" name="verify_title" finished-at="2024-05-01T17:18:11 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hitWidgets -->
-        <test-method signature="clickAutoComplete()[pri:1, instance:testingbaba_test.AutoComplete_AccordionTest@7b02881e]" started-at="2024-04-19T17:18:55 IST" name="clickAutoComplete" finished-at="2024-04-19T17:18:55 IST" duration-ms="108" status="PASS">
+        </test-method> <!-- verify_title -->
+        <test-method signature="click_elements()[pri:1, instance:testingbaba_test.TextboxTest@117e949d]" started-at="2024-05-01T17:18:11 IST" name="click_elements" finished-at="2024-05-01T17:18:12 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickAutoComplete -->
-        <test-method signature="fillAutoComplete()[pri:2, instance:testingbaba_test.AutoComplete_AccordionTest@7b02881e]" started-at="2024-04-19T17:18:55 IST" name="fillAutoComplete" finished-at="2024-04-19T17:18:57 IST" duration-ms="2462" status="PASS">
+        </test-method> <!-- click_elements -->
+        <test-method signature="click_textbox()[pri:2, instance:testingbaba_test.TextboxTest@117e949d]" started-at="2024-05-01T17:18:12 IST" name="click_textbox" finished-at="2024-05-01T17:18:12 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillAutoComplete -->
-      </class> <!-- testingbaba_test.AutoComplete_AccordionTest -->
-    </test> <!-- AutoComplete_Test -->
+        </test-method> <!-- click_textbox -->
+        <test-method signature="filldata()[pri:3, instance:testingbaba_test.TextboxTest@117e949d]" started-at="2024-05-01T17:18:12 IST" name="filldata" finished-at="2024-05-01T17:18:13 IST" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldata -->
+        <test-method signature="submitclick()[pri:4, instance:testingbaba_test.TextboxTest@117e949d]" started-at="2024-05-01T17:18:13 IST" name="submitclick" finished-at="2024-05-01T17:18:13 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitclick -->
+        <test-method signature="getverifydetails()[pri:5, instance:testingbaba_test.TextboxTest@117e949d]" started-at="2024-05-01T17:18:13 IST" name="getverifydetails" finished-at="2024-05-01T17:18:14 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getverifydetails -->
+      </class> <!-- testingbaba_test.TextboxTest -->
+    </test> <!-- TextBox_Test -->
   </suite> <!-- Testingbaba_Suite -->
 </testng-results>

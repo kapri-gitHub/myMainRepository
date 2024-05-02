@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testingbaba_pages.DataProviderTestPage">
+      <class name="testingbaba_test.TextboxTest">
         <methods>
-          <include name="testLogin" invocation-numbers="0 1"/>
+          <include name="filldata"/>
+          <include name="submitclick"/>
+          <include name="click_elements"/>
+          <include name="getverifydetails"/>
+          <include name="verify_title"/>
+          <include name="launchURL"/>
+          <include name="click_textbox"/>
         </methods>
-      </class> <!-- testingbaba_pages.DataProviderTestPage -->
+      </class> <!-- testingbaba_test.TextboxTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

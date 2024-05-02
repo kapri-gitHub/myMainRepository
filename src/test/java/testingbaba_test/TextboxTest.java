@@ -9,38 +9,38 @@ public class TextboxTest extends BaseLibrary
 {
   TextboxPage ob;
   @Parameters("env")
-  @BeforeTest
+  @BeforeTest (groups = {"regression"})
   public void launchURL(String env)
   {
 	 launch_browser(getReaddata(env));
 	 ob = new TextboxPage();
   }
-  @Test(priority = 0)
+  @Test(priority = 0 , groups = {"regression"})
   public void verify_title()
   {
 	 ob.verify_title();
   }
-  @Test(priority =1)
+  @Test(priority =1 , groups = {"regression"})
   public void click_elements()
   {
 	  ob.click_elements();
   }
-  @Test(priority = 2)
+  @Test(priority = 2, groups = {"regression"})
   public void click_textbox()
   {
 	  ob.click_textbox();
   }
-  @Test(priority = 3)
+  @Test(priority = 3, groups = {"regression"})
   public void filldata()
   {
 	  ob.fill_data();
   }
-  @Test(priority = 4)
+  @Test(priority = 4, groups = {"regression"})
   public void submitclick()
   {
 	  ob.submit_click();
   }
-  @Test(priority = 5)
+  @Test(priority = 5, groups = {"regression"})
   public void getverifydetails()
   {
 	  ob.getverifyDetails();

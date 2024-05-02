@@ -25,6 +25,8 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 
 import application_utility.ApplicationUtility;
 import excel_utility.Excelutility;
@@ -35,7 +37,7 @@ import wait_utility.WaitUtility;
 public class BaseLibrary implements Excelutility, PropertyUtility, WaitUtility, ApplicationUtility, ScreenshotUtility 
   {
 	static public WebDriver driver = null;
-	String path = "C:\\Users\\suraj kapri\\Eclipse_Workspace02\\Maven_Practice02\\Test_Data\\test_data.xlsx";
+	String path = "C:\\Users\\suraj kapri\\WorkSpace01\\MavenPractice02\\Test_Data\\test_data.xlsx";
 	String configpath = "C:\\Users\\suraj kapri\\WorkSpace01\\MavenPractice02\\Test_Data\\config.properties";
 
 	// For launching browser.
@@ -163,6 +165,23 @@ public class BaseLibrary implements Excelutility, PropertyUtility, WaitUtility, 
 		 {
 			System.out.println("Issue in getScreenshot: " + e);
 		 }
+	}
+	// kindly complete this method; it is incomplete at the moment
+	@AfterMethod
+	public void getAnalysis(ITestResult result)
+	{
+	   String name = result.getMethod().getMethodName();	
+	   try 
+	   {
+		  if(result.getStatus()==ITestResult.SUCCESS)
+		  {
+			  
+		  }
+	   } 
+	   catch (Exception e) 
+	   {
+	
+	   }
 	}
 
  // For using wait.

@@ -17,7 +17,7 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<test name="TextBox_Test" enabled="false">
+	<test name="TextBox_Test" enabled="true">
 		<classes>
 			<class name="testingbaba_test.TextboxTest" />
 		</classes>
@@ -102,7 +102,7 @@
 		</classes>
 	</test>
 
-	<test name="AutoComplete_Test" enabled="true">
+	<test name="AutoComplete_Test" enabled="false">
 		<classes>
 			<class name="testingbaba_test.AutoComplete_AccordionTest" />
 		</classes>
