@@ -60,7 +60,7 @@ public  class ApplicationUtilities extends BaseLibrary
 			e.printStackTrace();
 		}
 	}
-
+/********************************************************************************/
 	public static void dropdownTextEqualIgnoreCase(WebElement element, String text) 
 	{
 		sel = new Select(element);
@@ -75,7 +75,7 @@ public  class ApplicationUtilities extends BaseLibrary
 			}
 		}
 	}
-
+/*********************************************************************************/
 	public static void dropdownValue(WebElement element, String value) 
 	{
 		sel = new Select(element);
@@ -90,7 +90,7 @@ public  class ApplicationUtilities extends BaseLibrary
 			}
 		}
 	}
-
+/************************************************************************************/
 	public static void getddpvalueusingstring(WebDriver driver, String strval, String Strddpval) 
 	{
 		try 
@@ -105,7 +105,7 @@ public  class ApplicationUtilities extends BaseLibrary
 			Reporter.log(e.getLocalizedMessage(), true);
 		}
 	}
-
+/*************************************************************************/
 	public static void dropdownIndex(WebElement element, int index) 
 	{
 		try 
